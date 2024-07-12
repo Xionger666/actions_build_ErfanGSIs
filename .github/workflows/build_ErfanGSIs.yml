@@ -14,14 +14,14 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
-  ROM_NAME: MIUI
-  BUILD_TYPE: ab
+  ROM_URL: https://huang2728.sharepoint.com/sites/hk23/_layouts/15/download.aspx?UniqueId=ddc21e84-fe9a-4272-a4f4-0dc6c1e5b187&Translate=false&tempauth=v1.eyJzaXRlaWQiOiJmYmY1ZWRiMS01YzFmLTQ5NjMtOTVlZC02MzAxZWE0MDA1ODYiLCJhcHBfZGlzcGxheW5hbWUiOiJjbG91ZHJldmUiLCJhcHBpZCI6IjljMjAwMzlhLWQ1ZGUtNDU0OC1hZTgwLTU2NTVjZmVkZDQzZSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9odWFuZzI3Mjguc2hhcmVwb2ludC5jb21AZGE1YjY2NTItNDhiYy00ZDJhLTlhMjItMGI3YmMyNjgyYzkwIiwiZXhwIjoiMTcyMDgzMjIyOSJ9.CgoKBHNuaWQSAjY0EgsIlLGZ-ou2kT0QBRoOMjAuMTkwLjE0NC4xNzEqLHZncGE3QUI4YjBjYTBLN2xmN1Z4ckd6akh5VHVWWVJhVEdwcUc0NWVZS2M9MIMBOAFCEKE7uN6HIAAwf2Ts4JdswMxKEGhhc2hlZHByb29mdG9rZW5SCFsia21zaSJdcikwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDI0YjNjZDFjYkBsaXZlLmNvbXoBMoIBEglSZlvavEgqTRGaIgt7wmgskKIBHWhrMUBodWFuZzI3Mjgub25taWNyb3NvZnQuY29tqgEQMTAwMzIwMDI0QjNDRDFDQrIBDmFsbGZpbGVzLndyaXRlyAEB.Ijxc3o_OsVgfaREoNXBrgLG1nlm3KmRtq3Qqlye7SdE&ApiVersion=2.0
+  ROM_NAME: Generic
+  BUILD_TYPE: aonly
   TZ: Asia/Shanghai
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
