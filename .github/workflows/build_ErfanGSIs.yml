@@ -49,11 +49,6 @@ jobs:
               cd  $GITHUB_WORKSPACE/ErfanGSIs
               sudo bash ./url2GSI.sh -c --$BUILD_TYPE $ROM_URL $ROM_NAME
        
-       - name: Zip GSI  
-         run: |
-              cd $GITHUB_WORKSPACE/ErfanGSIs/output
-              mkdir final
-              zip -r final/GSI.zip ./*
        
        - name: upload result
          uses: actions/upload-artifact@v1
