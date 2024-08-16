@@ -59,7 +59,7 @@ jobs:
          uses: actions/upload-artifact@v1
          with:
            name: my-artifact
-           path: ${{ github.workspace }}/your_dictionary
+           path: $GITHUB_WORKSPACE/ErfanGSIs/output
 
          
             
