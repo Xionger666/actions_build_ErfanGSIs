@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: https://get.mirror2.arrowos.net/download.php?token=l8IOkNSsCKrXotpjQGdeZ0aqbgRT6n5fV1EHUiB9FmvxuczJD73MPLYW2hwA&version=arrow-12.1&variant=official&device=OP4A89
   ROM_NAME: Generic
-  BUILD_TYPE: Aonly  
+  BUILD_TYPE: ab  
   TZ: Asia/Shanghai
 
 jobs:
