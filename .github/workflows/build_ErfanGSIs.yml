@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://get.mirror2.arrowos.net/download.php?token=l8IOkNSsCKrXotpjQGdeZ0aqbgRT6n5fV1EHUiB9FmvxuczJD73MPLYW2hwA&version=arrow-12.1&variant=official&device=OP4A89
+  ROM_URL: https://huang2728.sharepoint.com/sites/hk23/_layouts/15/download.aspx?UniqueId=ddc21e84-fe9a-4272-a4f4-0dc6c1e5b187&Translate=false&tempauth=v1.eyJzaXRlaWQiOiJmYmY1ZWRiMS01YzFmLTQ5NjMtOTVlZC02MzAxZWE0MDA1ODYiLCJhcHBfZGlzcGxheW5hbWUiOiJjbG91ZHJldmUiLCJhcHBpZCI6IjljMjAwMzlhLWQ1ZGUtNDU0OC1hZTgwLTU2NTVjZmVkZDQzZSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9odWFuZzI3Mjguc2hhcmVwb2ludC5jb21AZGE1YjY2NTItNDhiYy00ZDJhLTlhMjItMGI3YmMyNjgyYzkwIiwiZXhwIjoiMTcyMzkxNTU2NiJ9.CgoKBHNuaWQSAjY0EgsIir2Mweq4nz0QBRoOMjAuMTkwLjE1NC4xNjEqLHZncGE3QUI4YjBjYTBLN2xmN1Z4ckd6akh5VHVWWVJhVEdwcUc0NWVZS2M9MIMBOAFCEKFHNV6B4AAwrXCxFPYtS-dKEGhhc2hlZHByb29mdG9rZW5SCFsia21zaSJdcikwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDI0YjNjZDFjYkBsaXZlLmNvbXoBMoIBEglSZlvavEgqTRGaIgt7wmgskKIBHWhrMUBodWFuZzI3Mjgub25taWNyb3NvZnQuY29tqgEQMTAwMzIwMDI0QjNDRDFDQrIBDmFsbGZpbGVzLndyaXRlyAEB.J0FiY-14PovPhLSLUpmyLSs1EGdKXoetmjP46qmdC0A&ApiVersion=2.0
   ROM_NAME: Generic
-  BUILD_TYPE: ab  
+  BUILD_TYPE: aonly  
   TZ: Asia/Shanghai
 
 jobs:
