@@ -26,7 +26,7 @@ jobs:
 
     steps:
        - name: Checkout
-         uses: actions/checkout@maste
+         uses: actions/checkout@master
            
        - name: Initialization environment
          run: |
@@ -34,6 +34,11 @@ jobs:
        
        - name: Clone ErfanGSI Source Code
          run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
+              
+       - name: Install pip
+         run: |
+            sudo apt-get install python-pip #python2
+            sudo apt-get install python3-pip #python3
          
        - name: Fix exit
          run: |
