@@ -15,8 +15,8 @@ on:
     
 env:
   ROM_URL: https://objects.githubusercontent.com/github-production-release-asset-2e65be/443249600/84b00b9d-9c11-43b1-8c25-077eef27f984?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240821%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240821T090607Z&X-Amz-Expires=300&X-Amz-Signature=d7ff7815956e6dc47496531e795aef6f9626b058e6788115825d524f2ae92bcd&X-Amz-SignedHeaders=host&actor_id=89840306&key_id=0&repo_id=443249600&response-content-disposition=attachment%3B%20filename%3DPixelOS_cheetah-13.0-20231003-0850.zip&response-content-type=application%2Foctet-stream
-  ROM_NAME: PixelOS
-  BUILD_TYPE: Aonly  
+  ROM_NAME: PixelOS_cheetah-13.0-20231003-0850
+  BUILD_TYPE: --aonly 
   TZ: Asia/Shanghai
 
 jobs:
