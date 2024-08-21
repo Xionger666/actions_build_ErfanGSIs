@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://master.dl.sourceforge.net/project/pixelos-releases/twelve/RMX1941/PixelOS_RMX1941-12.0-20220313-0654.zip?viasf=1
-  ROM_NAME: PixelOS_RMX1941-12.0-20220313-0654.zip
+  ROM_NAME: PixelOS
   BUILD_TYPE: Aonly 
   TZ: Asia/Shanghai
 
